@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1655753017 source:d:\cpp\complexnumber\cmplx.cpp
-	<iostream>
-	"cmplx.h"
-
-1655753177 d:\cpp\complexnumber\cmplx.h
-
