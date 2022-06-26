@@ -2,18 +2,27 @@
 #include "cmplx.h"
 
 #define V ComplexNumber::V
+#define CN ComplexNumber
+
 
 int main(){
-    ComplexNumber c1;
-    V(c1);
-    ComplexNumber c2(1,1);
-    V(c2);
-    c2.set_imgnry(2);
-    c2.set_real(2);
-    V(c2);
-    ComplexNumber c3(3,-2);
-    ComplexNumber c4 = c2 + c3;
-    V(c4);
+   /* CN z1;
+    std::cout << z1.argument() << std::endl;
+    CN p_z1 = z1.polar_form();
+    V(p_z1);*/
+    CN z2(4,0), p_z2;
+    p_z2 = z2.polar_form();
+    V(z2);
+    V(p_z2);
+
+//    z1.n_roots(3);
+   // CN z3 = z1+z2;
+   // V(z3);
+
+    z2.n_roots(1000);
+
+
+
 }
 
 
